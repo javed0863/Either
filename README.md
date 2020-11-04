@@ -1,5 +1,4 @@
 # Either
-========
 This is a sample app to show the handling of checked exceptions which may occure during stream processing
 
 'Either' Type Introduction
