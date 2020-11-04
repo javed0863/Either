@@ -28,7 +28,7 @@ public class App
                 .forEach(System.out::println);
 
         /**
-         * Creating a Either typw with Left and Right values
+         * Creating a Either type with Left and Right values
          */
         Either<String, Integer> items = Either.Of("Macbook", 10);
         System.out.println(items.getLeft() + " : " + items.getRight());
