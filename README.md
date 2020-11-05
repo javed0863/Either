@@ -15,3 +15,5 @@ Wrap the statements responsible for checked exceptions as below.
 * Use `Either.liftWithValue` - This will log both the exception and input parameter value (responsible for exception). Then it continues processing the stream.
 
 Refer `src/org.javedrpi.App.java` for sample usages.
+
+![alt text](https://github.com/javed0863/Either/blob/main/output.png)
