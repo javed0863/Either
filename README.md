@@ -16,4 +16,4 @@ Wrap the statements responsible for checked exceptions as below.
 
 Refer `src/org.javedrpi.App.java` for sample usages.
 
-![alt text](https://github.com/javed0863/Either/blob/main/output.png)
+![alt text](https://github.com/javed0863/Either/blob/main/output.png?raw=true)
