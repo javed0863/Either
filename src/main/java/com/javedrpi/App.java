@@ -1,9 +1,6 @@
-package org.javedrpi;
+package com.javedrpi;
 
 import java.util.stream.Stream;
-
-import static org.javedrpi.Either.lift;
-import static org.javedrpi.Either.liftWithValue;
 
 /**
  * Hello world!
@@ -18,7 +15,7 @@ public class App
          */
         System.out.println("Handling and logging exception:");
         Stream.of(0,1,2)
-                .map(lift(n->10/n))
+                .map(Either.lift(n->10/n))
                 .forEach(System.out::println);
 
         /**
@@ -26,7 +23,7 @@ public class App
          */
         System.out.println("\nHandling and logging exception with values:");
         Stream.of(0,1,2)
-                .map(liftWithValue(n->10/n))
+                .map(Either.liftWithValue(n->10/n))
                 .forEach(System.out::println);
 
         /**

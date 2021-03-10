@@ -1,4 +1,4 @@
-package org.javedrpi;
+package com.javedrpi;
 
 import java.util.Objects;
 

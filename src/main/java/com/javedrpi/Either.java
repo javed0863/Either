@@ -1,4 +1,4 @@
-package org.javedrpi;
+package com.javedrpi;
 
 import java.util.Optional;
 import java.util.function.Function;

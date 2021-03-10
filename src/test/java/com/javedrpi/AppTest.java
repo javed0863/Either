@@ -1,4 +1,4 @@
-package org.javedrpi;
+package com.javedrpi;
 
 import static org.junit.Assert.assertTrue;
 

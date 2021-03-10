@@ -1,4 +1,4 @@
-package org.javedrpi;
+package com.javedrpi;
 
 @FunctionalInterface
 public interface CheckedFunction<T,R> {
